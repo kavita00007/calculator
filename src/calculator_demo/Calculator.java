@@ -21,6 +21,12 @@ public class Calculator {
 			      
 		case '-': System.out.println("Result of Substraction :"+(n1-n2));
 	              break;
+	              
+		case '*': System.out.println("Result of Substraction :"+(n1*n2));
+                  break;
+        
+		case '/': System.out.println("Result of Substraction :"+(n1/n2));
+                  break;
 		
 		default : System.out.println("Enter valid operator");
 		return;
